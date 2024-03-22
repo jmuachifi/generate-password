@@ -1,0 +1,14 @@
+# service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "flask-password-generator.fullname" . }}
+spec:
+  ports:
+    - port: 80
+      targetPort: 5000
+      protocol: TCP
+  selector:
+    app: {{ include "flask-password-generator.fullname" . }}
+  type: ClusterIP
+

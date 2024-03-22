@@ -1,0 +1,4 @@
+apiVersion: v2
+name: flask-password-generator
+description: A Helm chart for deploying Flask password generator application
+version: 0.1.0

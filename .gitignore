@@ -1,0 +1,32 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore venv directory (if using virtual environments)
+venv/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables file (if using dotenv)
+.env
+
+# Ignore npm debug logs
+npm-debug.log*
+
+# Ignore yarn logs
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore IntelliJ IDEA settings
+.idea/
+
+# Ignore PyCharm settings
+*.iml
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride

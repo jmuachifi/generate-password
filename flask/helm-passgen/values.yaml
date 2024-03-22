@@ -1,0 +1,10 @@
+# values.yaml
+replicaCount: 3
+
+image:
+  repository: jmuachifi/passgen
+  tag: v2.0
+
+ingress:
+  enabled: true
+  host: your-domain.example.com
